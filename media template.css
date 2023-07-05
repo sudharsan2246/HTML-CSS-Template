@@ -1,0 +1,188 @@
+*{margin: 0;
+    padding: 0;
+    text-decoration: none;}
+    
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    
+    
+    .img{text-align: top left;
+        height: 60px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .c{
+        text-align: center;
+        display: block;
+    }
+    .content{
+       width: 80%;
+       height: 250px;
+       margin: 0 auto; 
+       text-align: center;
+       padding-bottom:90px;
+    }
+    button{
+        color:white;
+        background-color:black;
+        padding: 10px 15px;
+    } 
+    .part{
+        height: 350px;
+        width: 100%;
+        
+    }
+    .part1{
+        height: 350px;
+        width: 100%;        
+    }
+    .done{
+        text-align:left;
+        padding:80px;
+        color: white;   
+        margin-left: 80px;    
+    }
+    .done2{
+        position: absolute;
+        height: 250px;
+        width: 400px;
+        background-color: white;
+        right: 0;
+        top: 50px;
+        text-align: center;
+                
+    }
+    .done3{
+        margin-right: 25px;
+        padding-top: 60px;
+    }
+    .background{
+        background-image: url(./../image/bcimage.jpg);
+        background-position:top left;
+        background-repeat: no-repeat;
+        background-size: 100px;
+        
+    }
+    .background1{
+        background-image: url(./../image/toyatobc3.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 100px;
+    }
+    .padding{
+        padding-top: 15px;
+    }
+    .col1{
+        width: 60%;
+        height: 350px;
+        float: left;
+    }
+    .col2{
+        width: 40%;
+        height: 350px;
+        float: right;
+    }
+    .col3{
+        width: 40%;
+        height: 350px;
+        float: left;
+    }
+    .col4{width: 60%;
+        height: 350px;
+        float:right; 
+    }
+    .col5{
+        height: 350px;
+        width: 60%;
+        float: right;
+    }
+    .col6{
+        height: 350px;
+        width: 50%;
+        float: left;
+    }
+    .col7{
+        height: 350px;
+        width: 50%;
+        float: right;
+        position: relative;   
+    }
+    .col8{
+        height: 350px;
+        width: 40%;
+        float: right;
+        
+        
+    }
+    .col9{
+        height: 350px;
+        width: 60%;
+        float: left;
+    }
+    .gradient{
+        background-color: lightskyblue;
+        background-image: linear-gradient(to right, lightskyblue, rgb(228, 143, 228));
+        height: 350px;
+    }
+    @media (max-width:480px){
+        .content{
+            width: 80%;
+            height: 150px;
+            margin: 0 auto; 
+            text-align: center;}
+            
+        .col1{
+            width: 100%;
+            height: 180px;
+            float: none;
+        }
+        .col2{
+            width: 100%;
+            height: 180px;
+            float: none;
+            padding-top: 30px;
+        }
+        .col3{
+            width: 100%;
+            height: 180px;
+            float: none;
+            padding-top: 130px;
+            
+        }
+        .col4{width: 100%;
+            height: 180px;
+            float:none;
+            padding-top: 20px; 
+        }
+        .col5{
+            height: 180px;
+            width: 100%;
+            float: none;
+            padding-top: 100px;
+        }
+        .col6{
+            height: 180px;
+            width: 50%;
+            float: left;
+        }
+        .col7{
+            height: 180px;
+            width: 100%;
+            float: none;
+            position: relative;   
+        }
+        .col8{
+            height: 180px;
+            width: 100%;
+            float: none;   
+        }
+        .col9{
+            height: 180px;
+            width: 100%;
+            float: none;
+        }
+    }
